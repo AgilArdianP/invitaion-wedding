@@ -45,7 +45,7 @@ function App() {
     <div className="relative min-h-screen bg-gray-900 text-white overflow-hidden">
       {/* Background Music */}
       <audio id="background-music" loop>
-        <source src="/wedding-1.mp3" type="audio/mp3" />
+        <source src="./wedding-1.mp3" type="audio/mp3" />
       </audio>
       
       {/* Music Control Button */}
@@ -79,14 +79,14 @@ function App() {
       )}
 
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url("/images/wedding-bg.jpg")' }}>
+      <section className="relative h-screen flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url("./images/wedding-bg.jpg")' }}>
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>
         <div className="relative text-center px-4 z-10" data-aos="fade-up">
           <p className="text-lg mb-4">We're Getting Married</p>
           <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-5/12" data-aos="fade-up">
             <div className="rounded-lg overflow-hidden shadow-xl">
-              <img src="/images/1.jpg" className="w-full h-64 object-cover" />
+              <img src="./images/1.jpg" className="w-full h-64 object-cover" />
             </div>
           </div>
         </div>
@@ -98,7 +98,7 @@ function App() {
 
       {/* Couple Section */}
       <section className="py-20 px-4 relative overflow-hidden">
-        <div className="absolute inset-0 bg-cover bg-fixed opacity-20" style={{ backgroundImage: 'url("/images/wedding-bg.jpg")' }}></div>
+        <div className="absolute inset-0 bg-cover bg-fixed opacity-20" style={{ backgroundImage: 'url("./images/wedding-bg.jpg")' }}></div>
         <div className="max-w-5xl mx-auto relative z-10">
           <div className="text-center mb-16" data-aos="fade-up">
             <Heart className="mx-auto text-amber-500 mb-4" size={30} />
@@ -109,7 +109,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-12">
             <div className="text-center" data-aos="fade-right">
               <div className="w-48 h-48 rounded-full overflow-hidden mx-auto mb-6 border-4 border-yellow-500">
-                <img src="/images/Foto 4x6.jpg" alt="Bride" className="w-full h-full object-cover" />
+                <img src="./images/Foto 4x6.jpg" alt="Bride" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-4xl font-serif mb-2 text-yellow-600">Agil Ardian Pratama</h3>
               <p className="mb-4">Putra dari Bapak & Ibu ...</p>
@@ -124,7 +124,7 @@ function App() {
             
             <div className="text-center" data-aos="fade-left">
               <div className="w-48 h-48 rounded-full overflow-hidden mx-auto mb-6 border-4 border-yellow-500">
-                <img src="/images/2.jpg" alt="Groom" className="w-full h-full object-cover" />
+                <img src="./images/2.jpg" alt="Groom" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-4xl font-serif mb-2 text-yellow-600">Sofi Eriyanti</h3>
               <p className="mb-4">Putri dari Bapak & Ibu ...</p>
@@ -142,7 +142,7 @@ function App() {
 
       {/* Love Story Section */}
       <section className="py-20 px-4 relative">
-        <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ backgroundImage: 'url("/images/wedding-bg-2.jpg")' }}></div>
+        <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ backgroundImage: 'url("./images/wedding-bg-2.jpg")' }}></div>
         <div className="max-w-4xl mx-auto relative z-10">
           <div className="text-center mb-16" data-aos="fade-up">
             <Heart className="mx-auto text-amber-500 mb-4" size={30} />
@@ -154,7 +154,7 @@ function App() {
             <div className="flex flex-col md:flex-row items-center">
               <div className="md:w-5/12" data-aos="fade-right">
                 <div className="rounded-lg overflow-hidden shadow-xl">
-                  <img src="/images/1.jpg" alt="First Met" className="w-full h-64 object-cover" />
+                  <img src="./images/1.jpg" alt="First Met" className="w-full h-64 object-cover" />
                 </div>
               </div>
               <div className="md:w-7/12 md:pl-12 mt-6 md:mt-0" data-aos="fade-left">
@@ -168,7 +168,7 @@ function App() {
             <div className="flex flex-col md:flex-row-reverse items-center">
               <div className="md:w-5/12" data-aos="fade-left">
                 <div className="rounded-lg overflow-hidden shadow-xl">
-                  <img src="/images/5.jpg" alt="Dating" className="w-full h-64 object-cover" />
+                  <img src="./images/5.jpg" alt="Dating" className="w-full h-64 object-cover" />
                 </div>
               </div>
               <div className="md:w-7/12 md:pr-12 mt-6 md:mt-0" data-aos="fade-right">
@@ -182,7 +182,7 @@ function App() {
             <div className="flex flex-col md:flex-row items-center">
               <div className="md:w-5/12" data-aos="fade-right">
                 <div className="rounded-lg overflow-hidden shadow-xl">
-                  <img src="/images/7.jpg" alt="Proposal" className="w-full h-64 object-cover" />
+                  <img src="./images/7.jpg" alt="Proposal" className="w-full h-64 object-cover" />
                 </div>
               </div>
               <div className="md:w-7/12 md:pl-12 mt-6 md:mt-0" data-aos="fade-left">
@@ -198,7 +198,7 @@ function App() {
 
       {/* Event Details Section */}
       <section className="py-20 px-4 relative bg-gray-900">
-        <div className="absolute inset-0 bg-cover bg-fixed opacity-20" style={{ backgroundImage: 'url("/images/wedding-bg-7.jpg")' }}></div>
+        <div className="absolute inset-0 bg-cover bg-fixed opacity-20" style={{ backgroundImage: 'url("./images/wedding-bg-7.jpg")' }}></div>
         <div className="max-w-5xl mx-auto relative z-10">
           <div className="text-center mb-16" data-aos="fade-up">
             <Calendar className="mx-auto text-amber-500 mb-4" size={30} />
@@ -264,7 +264,7 @@ function App() {
 
       {/* Gallery Section */}
       <section className="py-20 px-4 relative">
-        <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: 'url("/images/wedding-bg-7.jpg")' }}></div>
+        <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: 'url("./images/wedding-bg-7.jpg")' }}></div>
         <div className="max-w-6xl mx-auto relative z-10">
           <div className="text-center mb-16" data-aos="fade-up">
             <Heart className="mx-auto text-amber-500 mb-4" size={30} />
@@ -278,7 +278,7 @@ function App() {
 
       {/* RSVP Section */}
       <section className="py-20 px-4 relative">
-        <div className="absolute inset-0 bg-cover bg-fixed opacity-20" style={{ backgroundImage: 'url("/images/wedding-bg-2.jpg")' }}></div>
+        <div className="absolute inset-0 bg-cover bg-fixed opacity-20" style={{ backgroundImage: 'url("./images/wedding-bg-2.jpg")' }}></div>
         <div className="max-w-3xl mx-auto relative z-10">
           <div className="text-center mb-16" data-aos="fade-up">
             <Users className="mx-auto text-amber-500 mb-4" size={30} />
@@ -293,7 +293,7 @@ function App() {
 
       {/* Gift Registry Section */}
       <section className="py-20 px-4 relative">
-        <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: 'url("/images/wedding-bg.jpg")' }}></div>
+        <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: 'url("./images/wedding-bg.jpg")' }}></div>
         <div className="max-w-3xl mx-auto relative z-10">
           <div className="text-center mb-16" data-aos="fade-up">
             <Gift className="mx-auto text-amber-500 mb-4" size={30} />
@@ -308,7 +308,7 @@ function App() {
 
       {/* Comments & Wishes Section */}
       <section className="py-20 px-4 relative">
-        <div className="absolute inset-0 bg-cover bg-fixed opacity-20" style={{ backgroundImage: 'url("/images/wedding-bg-2.jpg")' }}></div>
+        <div className="absolute inset-0 bg-cover bg-fixed opacity-20" style={{ backgroundImage: 'url("./images/wedding-bg-2.jpg")' }}></div>
         <div className="max-w-4xl mx-auto relative z-10">
           <div className="text-center mb-16" data-aos="fade-up">
             <Heart className="mx-auto text-amber-500 mb-4" size={30} />
