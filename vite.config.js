@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/wedding-invitaion/',
+  base: '/invitaion-wedding/',
   server: {
     port: 3000,
   },
