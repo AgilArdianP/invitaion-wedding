@@ -12,13 +12,13 @@ function GiftRegistry() {
       id: 'bank1',
       name: 'Bank BCA',
       number: '1234567890',
-      holder: 'Agil Ardian Pratama'
+      holder: 'Erik Widiani'
     },
     {
       id: 'bank2',
       name: 'Bank Mandiri',
       number: '0987654321',
-      holder: 'Sofi Eriyanti'
+      holder: 'Fajar Eko Prastiyo'
     }
   ];
 
@@ -70,7 +70,7 @@ function GiftRegistry() {
             Jika Anda ingin mengirimkan hadiah, silakan kirim ke alamat di bawah ini:
           </p>
           <div className="border border-gray-700 p-4 rounded-lg">
-            <p className="font-medium mb-2">Agil & Sofi</p>
+            <p className="font-medium mb-2">Erik & Fajar</p>
             <p className="text-gray-300">
               Dsn.Jati II Ds.Gandri Kec.Pangkur Kab.Ngawi<br />
               NGAWI, 12345<br />

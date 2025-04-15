@@ -65,7 +65,7 @@ function App() {
           >
             <Heart className="mx-auto text-amber-600 mb-4" size={50} />
             <h2 className="text-2xl font-serif mb-2">Undangan Pernikahan</h2>
-            <h1 className="text-3xl font-bold font-serif mb-4 text-yellow-600">AGIL & SOFI</h1>
+            <h1 className="text-3xl font-bold font-serif mb-4 text-yellow-600">ERIK & FAJAR</h1>
             <p className="mb-6">Kepada Bapak/Ibu/Saudara/i</p>
             <h3 className="text-xl mb-8 font-serif">Anda diundang ke pernikahan kami</h3>
             <button 
@@ -79,26 +79,26 @@ function App() {
       )}
 
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url("./images/wedding-bg.jpg")' }}>
+      <section className="relative h-screen flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url("./images/6.jpg")' }}>
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>
         <div className="relative text-center px-4 z-10" data-aos="fade-up">
           <p className="text-lg mb-4">We're Getting Married</p>
           <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-5/12" data-aos="fade-up">
             <div className="rounded-lg overflow-hidden shadow-xl">
-              <img src="./images/1.jpg" className="w-full h-64 object-cover" />
+              <img src="./images/6.jpg" className="w-full h-64 object-cover" />
             </div>
           </div>
         </div>
-          <h1 className="text-5xl md:text-7xl font-serif mb-6 text-yellow-600">Agil & Sofi</h1>
-          <p className="text-xl mb-8">16 Juni 2025</p>
-          <CountdownTimer date="2025-06-16T10:00:00" />
+          <h1 className="text-5xl md:text-7xl font-serif mb-6 text-yellow-600">Erik & Fajar</h1>
+          <p className="text-xl mb-8">11 Juni 2025</p>
+          <CountdownTimer date="2025-06-11T10:00:00" />
         </div>
       </section>
 
       {/* Couple Section */}
       <section className="py-20 px-4 relative overflow-hidden">
-        <div className="absolute inset-0 bg-cover bg-fixed opacity-20" style={{ backgroundImage: 'url("./images/wedding-bg.jpg")' }}></div>
+        <div className="absolute inset-0 bg-cover bg-fixed opacity-20" style={{ backgroundImage: 'url("./images/10.jpg")' }}></div>
         <div className="max-w-5xl mx-auto relative z-10">
           <div className="text-center mb-16" data-aos="fade-up">
             <Heart className="mx-auto text-amber-500 mb-4" size={30} />
@@ -108,32 +108,19 @@ function App() {
           
           <div className="grid md:grid-cols-2 gap-12">
             <div className="text-center" data-aos="fade-right">
-              <div className="w-48 h-48 rounded-full overflow-hidden mx-auto mb-6 border-4 border-yellow-500">
-                <img src="./images/Foto 4x6.jpg" alt="Bride" className="w-full h-full object-cover" />
-              </div>
-              <h3 className="text-4xl font-serif mb-2 text-yellow-600">Agil Ardian Pratama</h3>
-              <p className="mb-4">Putra dari Bapak & Ibu ...</p>
+              <h3 className="text-4xl font-serif mb-2 text-amber-600">Erik Widiani</h3>
+              <p className="mb-4">Putri dari Bapak Warlan & Ibu Yani</p>
+              <p className="mb-4">Dsn.Jati, Ds.Gandri, Kec.Pangkur, Kab.Ngawi</p>
               <div className="flex justify-center space-x-4">
-                <a href="https://instagram.com/sarah" className="text-white hover:text-pink-300">
-                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path fillRule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clipRule="evenodd" />
-                  </svg>
-                </a>
               </div>
             </div>
             
             <div className="text-center" data-aos="fade-left">
-              <div className="w-48 h-48 rounded-full overflow-hidden mx-auto mb-6 border-4 border-yellow-500">
-                <img src="./images/2.jpg" alt="Groom" className="w-full h-full object-cover" />
-              </div>
-              <h3 className="text-4xl font-serif mb-2 text-yellow-600">Sofi Eriyanti</h3>
-              <p className="mb-4">Putri dari Bapak & Ibu ...</p>
+            <Heart className="mx-auto text-yellow-500 mb-4" size={70} />
+              <h3 className="text-4xl font-serif mb-2 text-amber-600">Fajar Eko Prastiyo</h3>
+              <p className="mb-4">Putra dari Bapak Sujak & Ibu Sujiyem</p>
+              <p className="mb-4">Ds.Gempol, RT.01 RW.06, Kec.Karangjati, Kab.Ngawi</p>
               <div className="flex justify-center space-x-4">
-                <a href="https://instagram.com/john" className="text-white hover:text-pink-300">
-                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path fillRule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clipRule="evenodd" />
-                  </svg>
-                </a>
               </div>
             </div>
           </div>
@@ -142,7 +129,7 @@ function App() {
 
       {/* Love Story Section */}
       <section className="py-20 px-4 relative">
-        <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ backgroundImage: 'url("./images/wedding-bg-2.jpg")' }}></div>
+        <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ backgroundImage: 'url("./images/5.jpg")' }}></div>
         <div className="max-w-4xl mx-auto relative z-10">
           <div className="text-center mb-16" data-aos="fade-up">
             <Heart className="mx-auto text-amber-500 mb-4" size={30} />
@@ -212,17 +199,18 @@ function App() {
               <div className="flex items-start mb-4">
                 <Calendar className="text-yellow-400 mr-4 mt-1" size={20} />
                 <div>
-                  <p className="font-semibold">Sabtu, 16 Juni 2025</p>
+                  <p className="font-semibold">Rabu, 11 Juni 2025</p>
                   <p>08:00 - 10:00 WIB</p>
                 </div>
               </div>
               <div className="flex items-start mb-4">
                 <MapPin className="text-yellow-400 mr-4 mt-1" size={20} />
                 <div>
-                  <p className="font-semibold">Ballroom Hotel Aston</p>
-                  <p>Jl. Mayjen Sungkono, Madiun</p>
+                  <p className="font-semibold">Kediaman Mempelai Putri</p>
+                  <p>Dsn.Jati, Ds.Gandri, Kec.Pangkur, Kab.Ngawi</p>
                 </div>
               </div>
+              <p className="font-semibold text-center">Hiburan: Orkes "EMERALD"</p>
               <a 
                 href="https://goo.gl/maps/YOUR_MAP_LINK" 
                 target="_blank" 
@@ -234,21 +222,22 @@ function App() {
             </div>
             
             <div className="bg-gray-800 bg-opacity-80 p-8 rounded-lg shadow-xl" data-aos="fade-up" data-aos-delay="100">
-              <h3 className="text-2xl font-serif mb-4 text-yellow-300">Resepsi Pernikahan</h3>
+              <h3 className="text-2xl font-serif mb-4 text-yellow-300">Unduh Mantu</h3>
               <div className="flex items-start mb-4">
                 <Calendar className="text-yellow-400 mr-4 mt-1" size={20} />
                 <div>
-                  <p className="font-semibold">Sabtu, 16 Juni 2025</p>
-                  <p>11:00 - 14:00 WIB</p>
+                  <p className="font-semibold">Kamis malam Jumat, 12 malam 13 Juni 2025</p>
+                  <p>11:00 - Selesai WIB</p>
                 </div>
               </div>
               <div className="flex items-start mb-4">
                 <MapPin className="text-yellow-400 mr-4 mt-1" size={20} />
                 <div>
-                  <p className="font-semibold">Ballroom Hotel Aston</p>
-                  <p>Jl. Mayjen Sungkono, Madiun</p>
+                  <p className="font-semibold">Kediaman Mempelai Pria</p>
+                  <p>Ds.Gempol, RT.01 RW.06, Kec.Karangjati, Kab.Ngawi</p>
                 </div>
               </div>
+              <p className="font-semibold text-center">Hiburan: Orkes "EMERALD"</p>
               <a 
                 href="https://goo.gl/maps/YOUR_MAP_LINK" 
                 target="_blank" 
@@ -278,7 +267,7 @@ function App() {
 
       {/* RSVP Section */}
       <section className="py-20 px-4 relative">
-        <div className="absolute inset-0 bg-cover bg-fixed opacity-20" style={{ backgroundImage: 'url("./images/wedding-bg-2.jpg")' }}></div>
+        <div className="absolute inset-0 bg-cover bg-fixed opacity-20" style={{ backgroundImage: 'url("./images/9.jpg")' }}></div>
         <div className="max-w-3xl mx-auto relative z-10">
           <div className="text-center mb-16" data-aos="fade-up">
             <Users className="mx-auto text-amber-500 mb-4" size={30} />
@@ -324,9 +313,9 @@ function App() {
       {/* Footer */}
       <footer className="py-10 px-4 bg-gray-950 text-center">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl font-serif mb-6 text-amber-300">Agil & Sofi</h2>
+          <h2 className="text-3xl font-serif mb-6 text-amber-300">Erik & Fajar</h2>
           <p className="mb-4">Terima kasih telah menjadi bagian dari hari spesial kami</p>
-          <p className="text-sm text-gray-400 mt-8">© 2025 Agil & Sofi Wedding</p>
+          <p className="text-sm text-gray-400 mt-8">© 2025 Erik & Fajar Wedding</p>
         </div>
       </footer>
     </div>

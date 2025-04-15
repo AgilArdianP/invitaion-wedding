@@ -13,7 +13,7 @@ function Comments() {
       id: 2,
       name: 'Anisa Dewi',
       date: '30 Maret 2025',
-      comment: 'Bahagia selalu untuk Agil dan Sofi! Semoga pernikahan kalian lancar dan diberkahi.',
+      comment: 'Bahagia selalu untuk Fajar dan Erik! Semoga pernikahan kalian lancar dan diberkahi.',
       liked: false
     }
   ]);
