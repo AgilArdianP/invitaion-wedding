@@ -127,62 +127,6 @@ function App() {
         </div>
       </section>
 
-      {/* Love Story Section */}
-      <section className="py-20 px-4 relative">
-        <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ backgroundImage: 'url("./images/5.jpg")' }}></div>
-        <div className="max-w-4xl mx-auto relative z-10">
-          <div className="text-center mb-16" data-aos="fade-up">
-            <Heart className="mx-auto text-amber-500 mb-4" size={30} />
-            <h2 className="text-3xl font-serif mb-4">Our Love Story</h2>
-            <div className="w-24 h-1 bg-yellow-400 mx-auto"></div>
-          </div>
-          
-          <div className="space-y-16">
-            <div className="flex flex-col md:flex-row items-center">
-              <div className="md:w-5/12" data-aos="fade-right">
-                <div className="rounded-lg overflow-hidden shadow-xl">
-                  <img src="./images/1.jpg" alt="First Met" className="w-full h-64 object-cover" />
-                </div>
-              </div>
-              <div className="md:w-7/12 md:pl-12 mt-6 md:mt-0" data-aos="fade-left">
-                <h3 className="text-2xl font-serif mb-3 text-yellow-500">Pertama Bertemu</h3>
-                <p className="text-gray-300">
-                  Kami pertama kali bertemu di sekolah SMK. Pertemua yang tidak sengaja namun sangat berkesan.
-                </p>
-              </div>
-            </div>
-            
-            <div className="flex flex-col md:flex-row-reverse items-center">
-              <div className="md:w-5/12" data-aos="fade-left">
-                <div className="rounded-lg overflow-hidden shadow-xl">
-                  <img src="./images/5.jpg" alt="Dating" className="w-full h-64 object-cover" />
-                </div>
-              </div>
-              <div className="md:w-7/12 md:pr-12 mt-6 md:mt-0" data-aos="fade-right">
-                <h3 className="text-2xl font-serif mb-3 text-yellow-500">Mulai Berpacaran</h3>
-                <p className="text-gray-300">
-                  Setelah beberapa bulan saling mengenal, kami memutuskan untuk memulai hubungan pada tanggal 1 Januari 2021. Hari yang akan selalu kami kenang.
-                </p>
-              </div>
-            </div>
-            
-            <div className="flex flex-col md:flex-row items-center">
-              <div className="md:w-5/12" data-aos="fade-right">
-                <div className="rounded-lg overflow-hidden shadow-xl">
-                  <img src="./images/7.jpg" alt="Proposal" className="w-full h-64 object-cover" />
-                </div>
-              </div>
-              <div className="md:w-7/12 md:pl-12 mt-6 md:mt-0" data-aos="fade-left">
-                <h3 className="text-2xl font-serif mb-3 text-yellow-500">Lamaran</h3>
-                <p className="text-gray-300">
-                  Di bawah langit berbintang pada malam tanggal 20 April 2025, kami lamaran. Setelah sekian lama akhirnya hari yang ditunggu tiba.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Event Details Section */}
       <section className="py-20 px-4 relative bg-gray-900">
         <div className="absolute inset-0 bg-cover bg-fixed opacity-20" style={{ backgroundImage: 'url("./images/wedding-bg-7.jpg")' }}></div>
