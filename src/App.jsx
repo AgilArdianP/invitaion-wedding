@@ -156,7 +156,7 @@ function App() {
               </div>
               <p className="font-semibold text-center">Hiburan: Orkes "EMERALD"</p>
               <a 
-                href="https://goo.gl/maps/YOUR_MAP_LINK" 
+                href="https://maps.app.goo.gl/1zCr2t7nPWNhb791A"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-block bg-amber-600 px-4 py-2 rounded-full text-sm hover:bg-amber-700 transition-all mt-4"
