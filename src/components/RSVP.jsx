@@ -33,11 +33,11 @@ function RSVP() {
         <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16 text-green-500 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
         </svg>
-        <h3 className="text-2xl font-serif mb-4 text-pink-300">Terima Kasih!</h3>
+        <h3 className="text-2xl font-serif mb-4 text-amber-300">Terima Kasih!</h3>
         <p className="text-gray-300 mb-4">Konfirmasi kehadiran Anda telah kami terima.</p>
         <button 
           onClick={() => setSubmitted(false)}
-          className="bg-pink-600 px-6 py-2 rounded-full hover:bg-pink-700 transition-all"
+          className="bg-amber-600 px-6 py-2 rounded-full hover:bg-amber-700 transition-all"
         >
           Kembali
         </button>

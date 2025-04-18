@@ -45,7 +45,7 @@ function App() {
     <div className="relative min-h-screen bg-gray-900 text-white overflow-hidden">
       {/* Background Music */}
       <audio id="background-music" loop>
-        <source src="./wedding-1.mp3" type="audio/mp3" />
+        <source src="./denny-caknan.mp3" type="audio/mp3" />
       </audio>
       
       {/* Music Control Button */}
@@ -65,7 +65,7 @@ function App() {
           >
             <Heart className="mx-auto text-amber-600 mb-4" size={50} />
             <h2 className="text-2xl font-serif mb-2">Undangan Pernikahan</h2>
-            <h1 className="text-3xl font-bold font-serif mb-4 text-yellow-600">ERIK & FAJAR</h1>
+            <h1 className="text-3xl font-bold font-serif mb-4 text-yellow-600">FAJAR & ERIK</h1>
             <p className="mb-6">Kepada Bapak/Ibu/Saudara/i</p>
             <h3 className="text-xl mb-8 font-serif">Anda diundang ke pernikahan kami</h3>
             <button 
@@ -90,15 +90,15 @@ function App() {
             </div>
           </div>
         </div>
-          <h1 className="text-5xl md:text-7xl font-serif mb-6 text-yellow-600">Erik & Fajar</h1>
-          <p className="text-xl mb-8">11 Juni 2025</p>
+          <h1 className="text-5xl md:text-7xl font-serif mb-6 text-yellow-600">Fajar & Erik</h1>
+          <p className="text-xl mb-8">12 Juni 2025</p>
           <CountdownTimer date="2025-06-11T10:00:00" />
         </div>
       </section>
 
       {/* Couple Section */}
       <section className="py-20 px-4 relative overflow-hidden">
-        <div className="absolute inset-0 bg-cover bg-fixed opacity-20" style={{ backgroundImage: 'url("./images/10.jpg")' }}></div>
+        <div className="absolute inset-0 bg-cover bg-fixed opacity-20" style={{ backgroundImage: 'url("./images/copy.jpg")' }}></div>
         <div className="max-w-5xl mx-auto relative z-10">
           <div className="text-center mb-16" data-aos="fade-up">
             <Heart className="mx-auto text-amber-500 mb-4" size={30} />
@@ -108,18 +108,18 @@ function App() {
           
           <div className="grid md:grid-cols-2 gap-12">
             <div className="text-center" data-aos="fade-right">
-              <h3 className="text-4xl font-serif mb-2 text-amber-600">Erik Widiani</h3>
-              <p className="mb-4">Putri dari Bapak Warlan & Ibu Yani</p>
-              <p className="mb-4">Dsn.Jati, Ds.Gandri, Kec.Pangkur, Kab.Ngawi</p>
+              <h3 className="text-4xl font-serif mb-2 text-amber-600">Fajar Eko Prastiyo</h3>
+              <p className="mb-4">Putra dari Bapak Sujak & Ibu Sujiyem</p>
+              <p className="mb-4">Ds.Gempol, RT.01 RW.06, Kec.Karangjati, Kab.Ngawi</p>
               <div className="flex justify-center space-x-4">
               </div>
             </div>
             
             <div className="text-center" data-aos="fade-left">
             <Heart className="mx-auto text-yellow-500 mb-4" size={70} />
-              <h3 className="text-4xl font-serif mb-2 text-amber-600">Fajar Eko Prastiyo</h3>
-              <p className="mb-4">Putra dari Bapak Sujak & Ibu Sujiyem</p>
-              <p className="mb-4">Ds.Gempol, RT.01 RW.06, Kec.Karangjati, Kab.Ngawi</p>
+              <h3 className="text-4xl font-serif mb-2 text-amber-600">Erik Widiani</h3>
+              <p className="mb-4">Putri dari Bapak Warlan & Ibu Yani</p>
+              <p className="mb-4">Dsn.Jati, Ds.Gandri, Kec.Pangkur, Kab.Ngawi</p>
               <div className="flex justify-center space-x-4">
               </div>
             </div>
@@ -129,7 +129,7 @@ function App() {
 
       {/* Event Details Section */}
       <section className="py-20 px-4 relative bg-gray-900">
-        <div className="absolute inset-0 bg-cover bg-fixed opacity-20" style={{ backgroundImage: 'url("./images/wedding-bg-7.jpg")' }}></div>
+        <div className="absolute inset-0 bg-cover bg-fixed opacity-20" style={{ backgroundImage: 'url("./images/4.jpg")' }}></div>
         <div className="max-w-5xl mx-auto relative z-10">
           <div className="text-center mb-16" data-aos="fade-up">
             <Calendar className="mx-auto text-amber-500 mb-4" size={30} />
@@ -139,19 +139,19 @@ function App() {
           
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-gray-800 bg-opacity-80 p-8 rounded-lg shadow-xl" data-aos="fade-up">
-              <h3 className="text-2xl font-serif mb-4 text-yellow-300">Akad Nikah</h3>
+              <h3 className="text-2xl font-serif mb-4 text-yellow-300">Unduh Mantu</h3>
               <div className="flex items-start mb-4">
                 <Calendar className="text-yellow-400 mr-4 mt-1" size={20} />
                 <div>
-                  <p className="font-semibold">Rabu, 11 Juni 2025</p>
-                  <p>08:00 - 10:00 WIB</p>
+                  <p className="font-semibold">Kamis malam Jumat, 12 malam 13 Juni 2025</p>
+                  <p>10.00 - Selesai</p>
                 </div>
               </div>
               <div className="flex items-start mb-4">
                 <MapPin className="text-yellow-400 mr-4 mt-1" size={20} />
                 <div>
-                  <p className="font-semibold">Kediaman Mempelai Putri</p>
-                  <p>Dsn.Jati, Ds.Gandri, Kec.Pangkur, Kab.Ngawi</p>
+                  <p className="font-semibold">Kediaman Mempelai Putra</p>
+                  <p>Ds.Gempol, RT.01 RW.06, Kec.Karangjati, Kab.Ngawi</p>
                 </div>
               </div>
               <p className="font-semibold text-center">Hiburan: Orkes "EMERALD"</p>
@@ -164,40 +164,13 @@ function App() {
                 Lihat Lokasi
               </a>
             </div>
-            
-            <div className="bg-gray-800 bg-opacity-80 p-8 rounded-lg shadow-xl" data-aos="fade-up" data-aos-delay="100">
-              <h3 className="text-2xl font-serif mb-4 text-yellow-300">Unduh Mantu</h3>
-              <div className="flex items-start mb-4">
-                <Calendar className="text-yellow-400 mr-4 mt-1" size={20} />
-                <div>
-                  <p className="font-semibold">Kamis malam Jumat, 12 malam 13 Juni 2025</p>
-                  <p>11:00 - Selesai WIB</p>
-                </div>
-              </div>
-              <div className="flex items-start mb-4">
-                <MapPin className="text-yellow-400 mr-4 mt-1" size={20} />
-                <div>
-                  <p className="font-semibold">Kediaman Mempelai Pria</p>
-                  <p>Ds.Gempol, RT.01 RW.06, Kec.Karangjati, Kab.Ngawi</p>
-                </div>
-              </div>
-              <p className="font-semibold text-center">Hiburan: Orkes "EMERALD"</p>
-              <a 
-                href="https://goo.gl/maps/YOUR_MAP_LINK" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="inline-block bg-amber-600 px-4 py-2 rounded-full text-sm hover:bg-pink-700 transition-all mt-4"
-              >
-                Lihat Lokasi
-              </a>
-            </div>
           </div>
         </div>
       </section>
 
       {/* Gallery Section */}
       <section className="py-20 px-4 relative">
-        <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: 'url("./images/wedding-bg-7.jpg")' }}></div>
+        <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: 'url("./images/8.jpg")' }}></div>
         <div className="max-w-6xl mx-auto relative z-10">
           <div className="text-center mb-16" data-aos="fade-up">
             <Heart className="mx-auto text-amber-500 mb-4" size={30} />
@@ -226,7 +199,7 @@ function App() {
 
       {/* Gift Registry Section */}
       <section className="py-20 px-4 relative">
-        <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: 'url("./images/wedding-bg.jpg")' }}></div>
+        <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: 'url("./images/5.jpg")' }}></div>
         <div className="max-w-3xl mx-auto relative z-10">
           <div className="text-center mb-16" data-aos="fade-up">
             <Gift className="mx-auto text-amber-500 mb-4" size={30} />
@@ -241,7 +214,7 @@ function App() {
 
       {/* Comments & Wishes Section */}
       <section className="py-20 px-4 relative">
-        <div className="absolute inset-0 bg-cover bg-fixed opacity-20" style={{ backgroundImage: 'url("./images/wedding-bg-2.jpg")' }}></div>
+        <div className="absolute inset-0 bg-cover bg-fixed opacity-20" style={{ backgroundImage: 'url("./images/2.jpg")' }}></div>
         <div className="max-w-4xl mx-auto relative z-10">
           <div className="text-center mb-16" data-aos="fade-up">
             <Heart className="mx-auto text-amber-500 mb-4" size={30} />
@@ -257,9 +230,9 @@ function App() {
       {/* Footer */}
       <footer className="py-10 px-4 bg-gray-950 text-center">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl font-serif mb-6 text-amber-300">Erik & Fajar</h2>
+          <h2 className="text-3xl font-serif mb-6 text-amber-300">Fajar & Erik</h2>
           <p className="mb-4">Terima kasih telah menjadi bagian dari hari spesial kami</p>
-          <p className="text-sm text-gray-400 mt-8">© 2025 Erik & Fajar Wedding</p>
+          <p className="text-sm text-gray-400 mt-8">© 2025 Fajar & Erik Wedding</p>
         </div>
       </footer>
     </div>
