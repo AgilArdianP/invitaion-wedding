@@ -4,15 +4,15 @@ function Comments() {
   const [comments, setComments] = useState([
     {
       id: 1,
-      name: 'Budi Santoso',
-      date: '1 April 2025',
+      name: 'Sofi Eriyanti',
+      date: '5 Juni 2025',
       comment: 'Selamat atas pernikahan kalian! Semoga menjadi keluarga yang sakinah, mawaddah, dan warahmah.',
       liked: false
     },
     {
       id: 2,
-      name: 'Anisa Dewi',
-      date: '30 Maret 2025',
+      name: 'Srianida',
+      date: '8 Juni 2025',
       comment: 'Bahagia selalu untuk Fajar dan Erik! Semoga pernikahan kalian lancar dan diberkahi.',
       liked: false
     }
